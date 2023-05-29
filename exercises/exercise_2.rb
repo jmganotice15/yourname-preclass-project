@@ -1,7 +1,10 @@
-x = 100
+def age_checker(adult)
+  if adult >= 18
+    return "adult"
 
-if x >= 18
-  puts "adult"
-else
-  puts "not adult"
+  else
+    return "not adult"
+  end
 end
+
+p age_checker(22)
